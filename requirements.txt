@@ -1,3 +1,4 @@
 psycopg2-binary==2.9.11
 python-decouple==3.8
 Faker==38.2.0
+pytest==9.0.2
