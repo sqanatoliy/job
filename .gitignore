@@ -15,3 +15,4 @@ Thumbs.db
 
 # Ignore virtual environment
 /vennv
+/venv
