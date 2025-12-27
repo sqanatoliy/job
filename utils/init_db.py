@@ -33,7 +33,7 @@ def execute_sql_file(filename, db_config):
             conn.close()
 
 # Налаштування підключення (заміни на свої дані)
-config = {
+config_db = {
     "dbname": config("DB_NAME", default="job_db"),
     "user": config("DB_USER", default="job_user"),
     "password": config("DB_NAME", default="job_password"),
@@ -42,4 +42,4 @@ config = {
 }
 
 if __name__ == "__main__":
-    execute_sql_file('job_schema.sql', config)
+    execute_sql_file('job_schema.sql', config_db)
